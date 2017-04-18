@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<link href="style.css" rel="stylesheet" type="text/css"><title>PasteBox</title></head><body id="index"><h1>PasteBox</h1>
+<ul id="menu"><!-- ADD YOUR MENU ENTRIES HERE -->
+
+
+
+<li><a href="index.html">New entry</a></li> 
+<!--<li><a href="feed.xml"><span style="color:red">Key not found: 'Feeds'</span></a></li>-->
+ </ul><div id="bigwrapper">
+<div id="xrecent"><!-- You may put whatever you like here! -->
+</div><div id="center"><form id="new" method="post" enctype="multipart/form-data" action="new.php"><ul id="fields">
+<li><label><span>Subject: </span><input type="text" name="subject" value=""></label></li>
+<li><label><span>Type: </span><select name="type"><option value="txt">Text file</option><option value="php">PHP code</option><option value="html">HTML</option><option value="css">CSS</option><option value="javascript">JavaScript</option></select></label></li>
+<li><label><span>Content: </span><textarea name="content" rows="30" cols="150"></textarea></label></li>
+<li><input id="ms2" type="submit" value="Post content" name="xsubmit"></li>
+</ul></form></div><div class="clear"></div><p id="footer"><a href="http://pastebox.sf.net/">PasteBox v1.0.0</a> released under the MIT license</p></div></body></html>
